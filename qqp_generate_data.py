@@ -25,7 +25,7 @@ import argparse
 import ast
 import csv
 import nltk
-
+nltk.download("punkt")
 
 def _tokenize(x):
   """Tokenizes input using NLTK."""
